@@ -234,6 +234,31 @@ section svg {
 	max-width: 44vw;
 }
 
+.home-page .home-icon {
+	width: 100%;
+	bottom: 0;
+	position: absolute;
+	z-index: 10;
+	display: flex;
+	justify-content: space-around;
+}
+
+.home-page .group-icon img {
+	width: 30px;
+}
+.home-page .group-icon:nth-child(1) img {
+	margin-bottom: 60px;
+}
+.home-page .group-icon:nth-child(2) img {
+	margin-top: 20px;
+}
+.home-page .group-icon:nth-child(3) img {
+	margin-bottom: 60px;
+}
+.home-page .group-icon:nth-child(4) img {
+	margin-top: 20px;
+}
+
 /* ------ end [home] page ------ */
 
 
