@@ -48,6 +48,9 @@
 	src: url(Font/KGHAPPYSolid.ttf) format("ttf");
 }
 
+span.mark {
+	opacity: 0.6;
+}
 
 
 
@@ -94,6 +97,10 @@ nav ul {
 	justify-content: center;
 	align-items: center;
 	margin-right: 15px;
+}
+nav li:first-child a {
+	color: var(--main-color-black-opacity);
+	background-color: var(--secondary-color-600);
 }
 
 nav ul li a {
@@ -228,7 +235,6 @@ section svg {
 }
 
 .home-page .home-description {
-
 	line-height: 17px;
 	margin-top: 10px;
 	font-size: .9rem;
@@ -247,7 +253,7 @@ section svg {
 }
 
 .home-page .group-icon {
-	color: #fff;
+	color: var(--main-color-black);
 	text-shadow: 0 0 3px rgba(0, 0, 0, 0.519);
 	font-family: 'Poppins', sans-serif;
 	font-size: .9rem;
@@ -278,7 +284,7 @@ section svg {
 /* ------ start [about] page ------ */
 
 section.about-page {
-	color: #fff;
+	color: var(--main-color-black);
 	box-sizing: border-box;
 	padding: 30px;
 	display: grid;
@@ -288,7 +294,36 @@ section.about-page {
 	background-color: var(--secondary-color-600);
 }
 
-/* ----- Content 1 ----- */
+.about-page .about-col-2 h1 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.45rem;
+	text-align: center;
+}
+.about-page .about-col-2 p {
+	margin-top: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-size: .9rem;
+	text-align: justify;
+	opacity: 1;
+	line-height: 18px;
+}
+/* ------ End [about] page ------ */
+
+
+
+/* ------ start [service] page ------ */
+section.service-page {
+	background-color: var(--main-color-black);
+	width: 100%;
+	height: 100vh;
+}
+
+
+
+
+
+
+
 
 
 
@@ -306,10 +341,9 @@ section.about-page {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(1, 1fr);
 	}
-
 	.about-page .about-col-2 {
 		margin-bottom: 20px;
-		background-color: #56005c;
+
 		padding: 20px 30px;
 		border-radius: 4px;
 		box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
