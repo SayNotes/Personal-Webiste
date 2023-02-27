@@ -87,7 +87,7 @@ nav .logo-nav {
 .logo-nav>h1 {
 	color: var(--main-color-white);
 	letter-spacing: .3px;
-	font-size: 20px;
+	font-size: 1.2rem;
 	margin-left: 8px;
 }
 
@@ -99,10 +99,10 @@ nav ul {
 	margin-right: 15px;
 }
 
-nav li:first-child a {
+nav li:last-child a {
 	border-radius: 2px;
-	/* color: var(--main-color-black-opacity); */
-	background: linear-gradient(135deg, hsla(324, 91%, 46%, 1) 0%, hsla(18, 100%, 49%, 1) 100%);
+	font-weight: bold;
+	background-color: var(--secondary-color-600);
 }
 
 nav ul li a {
@@ -111,8 +111,8 @@ nav ul li a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: serif;
-	font-size: .9em;
-	letter-spacing: .1px;
+	font-size: .8rem;
+	letter-spacing: .5px;
 	margin-left: 10px;
 	transition: .2s;
 	border-radius: 1px;
@@ -190,14 +190,16 @@ section.home-page {
 	display: flex;
 	align-items: center;
 }
+
 .home-page .home-col-2 {
 	display: flex;
 	align-items: end;
 	justify-content: center;
 }
+
 .home-page .home-img img {
-	margin-bottom: 15px;
-	height: 500px;
+	margin-bottom: 18px;
+	height: 490px;
 	filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
 }
 
@@ -313,6 +315,14 @@ section.about-page {
 	width: 100%;
 	background-color: var(--secondary-color-600);
 }
+.about-page .about-col-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about-page .about-col-1 img {
+	width: calc(100% - 200px);
+}
 
 .about-page .about-col-2 h1 {
 	font-family: 'Poppins', sans-serif;
@@ -375,8 +385,6 @@ section.service-page {
 	.about-page .about-col-2 {
 		margin-bottom: 20px;
 
-		padding: 20px 30px;
-		border-radius: 4px;
-		box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+		padding: 20px 30px
 	}
 }
