@@ -190,6 +190,16 @@ section.home-page {
 	display: flex;
 	align-items: center;
 }
+.home-page .home-col-2 {
+	display: flex;
+	align-items: end;
+	justify-content: center;
+}
+.home-page .home-img img {
+	margin-bottom: 15px;
+	height: 500px;
+	filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
 
 .home-page .home-text {
 	cursor: default;
