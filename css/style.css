@@ -318,19 +318,6 @@ section.about-page {
 	background-color: var(--secondary-color-600);
 }
 
-.about-page .about-col-1 {
-	height: 100%;
-	width: 100%;
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	place-items: center center;
-	gap: 20px 10px;
-}
-
-.about-page .about-col-1 img {
-		width: 100%;
-}
-
 .about-page .about-col-2 h1 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.45rem;
