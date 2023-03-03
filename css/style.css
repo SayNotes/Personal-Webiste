@@ -12,17 +12,17 @@
 	--main-color-white: #fff;
 	--main-color-white-opacity: rgb(255, 255, 255, 0.8);
 
-	--primary-color-1000: #240046;
-	--primary-color-800: #3C096C;
+	--primary-color-1000: #fcba04;
+	/* --primary-color-800: #3C096C;
 	--primary-color-600: #5A189A;
 	--primary-color-400: #7B2CBF;
-	--primary-color-200: #9D4EDD;
+	--primary-color-200: #9D4EDD; */
 
-	--secondary-color-1000: #ff9e00;
-	--secondary-color-800: #ff9100;
+	--secondary-color-1000: #031d44;
+	/* --secondary-color-800: #ff9100;
 	--secondary-color-600: #ff8500;
-	--secondary-color-400: #ff7900;
-	--secondary-color-200: #ff6d00;
+	--secondary-color-400: #ea6e01;
+	--secondary-color-200: #ff6d00; */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
