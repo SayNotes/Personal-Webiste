@@ -1,1 +1,0 @@
-const tombol = document.getElementById('example')
