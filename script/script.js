@@ -1,12 +1,14 @@
 // let nama = prompt("Masukkan Nama");
-// let age = prompt("Masukkan Umur");
-// let arraykosong = [];`
+// let input = prompt("Masukkan Umur");
+// let umur = parseInt(input);
+// let obj = {
+//     nama: nama,
+//     umur: umur 
+// };
 
-// arraykosong.push(nama, parseInt(age));
-
-// if (isNaN(arraykosong[1])) {
-//     console.log('Mohon Untuk Hanya Memasukkan Angka');
+// if (isNaN(obj.umur)) {
+//     console.log('Mohon untuk memasukkan tipe data INTERGER');
 // } else {
-//     arraykosong[0] = 'Sultan Faiz Mochammad'
-//     console.log(`Nama Saya ${arraykosong[0]}. Saya Berumur ${arraykosong[1]} Tahun`);
+//     obj.nama = 'Sultan Faiz Mochammad'
+//     console.log(`Nama Saya ${obj.nama}. Saya Berumur ${obj.umur} tahun`);
 // }
