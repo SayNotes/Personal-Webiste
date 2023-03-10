@@ -284,15 +284,26 @@ section.about-page {
 	margin-top: 20px;
 	font-family: 'Mulish', sans-serif;
 	font-size: .85rem;
-	text-align: justify;
+	text-align: center;
 	opacity: 1;
 	line-height: 18px;
 }
-
 .about-page .group-text {
-	width: 200px;
+	color: var(--primary-color-1000);
+	padding: 7px;
+	border-radius: 5px;
+	margin: 0 0 10px 20px;
+	font-size: .7rem;
+	font-family: 'Poppins', sans-serif;
 	display: flex;
-	justify-content: space-between;
+	background-color: var(--primary-text-slate-1);
+}
+
+.about-page .group-text h1:first-child {
+	width: 60px;
+}
+.about-page .group-text p {
+	margin-left: 10px
 }
 
 /* ------ End [about] page ------ */
