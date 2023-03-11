@@ -73,6 +73,21 @@ nav .logo-nav {
 	margin-left: 20px;
 }
 
+nav .nav-time {
+	font-family: 'Poppins', sans-serif;
+	color: var(--main-color-white);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5px;
+	border: 1.5px solid var(--main-color-white);
+}
+
+nav .nav-time h1:first-child,
+nav .nav-time h1:last-child {
+	margin: 5px;
+}
+
 .logo-nav>img.logo-web {
 	filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
 	width: 32px;
