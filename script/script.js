@@ -10,7 +10,7 @@ if (
     age--;
 }
 
-document.querySelector("#age").innerHTML = `${age} Tahun`;
+document.querySelector("#age").innerHTML = `${age} Years Old`;
 
 // membuat jam
 
@@ -31,9 +31,10 @@ let timerInterval = setInterval(function () {
     } else if (clock.menit >= 60) {
         clock.menit = 0;
         clock.jam++;
-    } else if (clock.jam >= 24) {
+    } else if (clock.jam > 24) {
         clock.jam = 0;
     }
     clockHours.textContent = clock.jam.toString();
     clockMinutes.textContent = clock.menit.toString().padStart(2, '0');
+    
 }, 1000);

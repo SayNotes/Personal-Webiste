@@ -214,7 +214,6 @@ section.home-page {
 .home-page .home-regards {
 	color: var(--primary-color-1000);
 	position: relative;
-	font-family: 'Mulish', serif;
 	font-size: 1rem;
 	width: max-content;
 	/* border-radius: 3px;
@@ -228,19 +227,23 @@ section.home-page {
 	font-size: 2.7rem;
 	letter-spacing: -1px;
 	margin-top: 7px;
-	/* background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%); */
 	background-image: linear-gradient(-225deg, #FFFEFF 0%, #fff4d7 100%);
 	background-clip: text;
 	color: transparent;
 }
 
+.home-role, .hire, .home-regards {
+	font-family: 'Poppins', serif;
+}
+
 .home-page .home-role {
-	font-family: 'Mulish', serif;
-	font-size: 1.1rem;
+	font-size: 1rem;
 	margin-top: 10px;
 	color: var(--primary-color-1000);
+	letter-spacing: 1px;
 }
 .home-page .home-description {
+	font-family: 'Mulish', sans-serif;
 	line-height: 17px;
 	margin-top: 7px;
 	font-size: .85rem;
@@ -249,18 +252,18 @@ section.home-page {
 	max-width: 44vw;
 }
 .home-page .hire {
-	margin-top: 16px;
+	margin-top: 20px;
 }
 
 .home-page .hire a {
-	font-size: .9rem;
+	font-size: .8rem;
 	color: var(--primary-color-1000);
 	font-style: none;
 	text-decoration: none;
 	border: 2px solid var(--primary-color-1000);
 	max-width: max-content;
 	border-radius: 1px;
-	padding: 2px 14px;
+	padding: 5px 14px;
 }
 .home-page .hire a:hover {
 	background-color: var(--primary-color-1000);
@@ -277,14 +280,21 @@ section.home-page {
 /* ------ start [about] page ------ */
 
 section.about-page {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: var(--primary-color-1000);
+}
+
+section .about-container {
 	color: var(--main-color-black);
 	box-sizing: border-box;
-	padding: 30px;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
-	width: 100%;
-	background-color: var(--primary-color-1000);
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .about-page .about-col-1 h1 {
@@ -299,15 +309,15 @@ section.about-page {
 	margin-top: 20px;
 	font-family: 'Mulish', sans-serif;
 	font-size: .85rem;
-	text-align: center;
+	text-align: left;
 	opacity: 1;
 	line-height: 18px;
 }
 .about-page .group-text {
 	color: var(--primary-color-1000);
-	padding: 7px;
-	border-radius: 5px;
-	margin: 0 0 10px 20px;
+	padding: 10px;
+	border-radius: 3px;
+	margin: 0 0 5px 20px;
 	font-size: .7rem;
 	font-family: 'Poppins', sans-serif;
 	display: flex;
