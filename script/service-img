@@ -1,0 +1,10 @@
+// const backHover = document.querySelector("section#service");
+// const card = document.getElementsByClassName("service-card");
+
+// card[0].addEventListener("mouseover", (event) => {
+//         backHover.classList.add("page1");
+// });
+
+// card[0].addEventListener("mouseout", (event) => {
+//         backHover.classList.remove("page1");
+// });`

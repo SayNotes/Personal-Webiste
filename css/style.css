@@ -174,13 +174,18 @@ nav ul li:nth-child(4) {
 
 section.home-page {
 	background-color: var(--main-color-black);
+	display: flex;
+	justify-content: center;
+	align-items: end;
 	width: 100%;
 	height: 100vh;
+}
+
+section .home-container {
+	width: 85%;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
-	position: relative;
-	background: linear-gradient(to bottom, var(--main-color-black), #1a1a1a)
 }
 
 .home-page svg {
@@ -208,7 +213,6 @@ section.home-page {
 .home-page .home-text {
 	cursor: default;
 	color: var(--main-color-white);
-	margin-left: 30px;
 }
 
 .home-page .home-regards {
@@ -223,7 +227,7 @@ section.home-page {
 }
 
 .home-page .home-name {
-	font-size: 2.4rem;
+	font-size: 2.3rem;
 	letter-spacing: -1px;
 	margin-top: 7px;
 	background-image: linear-gradient(-225deg, #FFFEFF 0%, #fff4d7 100%);
@@ -293,14 +297,14 @@ section .about-container {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
-	width: 80%;
+	width: 85%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
 .about-page .about-col-1 h1 {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	text-align: center;
 }
@@ -348,19 +352,32 @@ section.service-page {
 	justify-content: center;
 }
 section .service-container {
-	width: 80%;
+	width: 85%;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
 
+
 .service-page h1:first-child {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	text-align: center;
+	background-image: linear-gradient(-225deg, #FFFEFF 0%, #fff4d7 100%);
+	background-clip: text;
+	color: transparent;
 }
 
-.service-page .service-col-1 {
+.service-page .desc {
+	text-align: center;
+	font-family: 'Mulish', sans-serif;
+	font-size: .8rem;
+	margin-top: 10px;
+	padding: 5px;
+	color: var(--primary-color-1000);
+}
+
+.service-page .service-col {
 	font-family: 'Poppins', sans-serif;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -400,6 +417,7 @@ section .service-container {
 
 
 .service-card h6 {
+	font-family: 'Poppins', sans-serif;
 	color: var(--main-color-white);
 	text-decoration: none;
 	font-size: .8rem;
@@ -420,8 +438,6 @@ section .service-container {
 section.project-page {
 	background-color: var(--primary-color-1000);
 	width: 100%;
-	height: 100vh;
-	color: var(--main-color-white);
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -436,11 +452,15 @@ section .project-container {
 
 .project-page h1:first-child {
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.2rem;
+	font-size: 1.4rem;
 	font-weight: bold;
 	text-align: center;
 }
 
+.rasio {
+	width: 100%;
+	padding-top: calc(100% * 9 / 16);
+}
 
 
 
